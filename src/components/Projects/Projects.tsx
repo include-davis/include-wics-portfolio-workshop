@@ -9,8 +9,8 @@ import styles from "./Projects.module.scss";
 const Projects = React.forwardRef((_: any, ref: any) => {
   return (
     <section className={styles.Projects} ref={ref}>
-      My Projects
-      <div>
+      <h3 className={styles.projectTitle}>My Projects</h3>
+      <div className={styles.cards}>
         {ProjectsData.map((project: Project, index: number) => (
           <ProjectsCard key={index} project={project} />
         ))}

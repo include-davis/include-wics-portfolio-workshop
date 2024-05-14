@@ -19,7 +19,10 @@ export default function Navbar({
       <ul className={styles.links}>
         {navLinks.map((link, index) => (
           <li key={index}>
-            <button className={styles.sectionButton} onClick={() => scrollToRef(refs[index])}>
+            <button
+              className={styles.sectionButton}
+              onClick={() => scrollToRef(refs[index])}
+            >
               {link.name}
             </button>
           </li>

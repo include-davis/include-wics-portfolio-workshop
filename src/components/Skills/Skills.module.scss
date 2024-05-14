@@ -1,1 +1,16 @@
 @use "src/globals/mixins.scss";
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: row;
+  font-size: 100px;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}

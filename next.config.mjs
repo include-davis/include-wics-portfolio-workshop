@@ -12,7 +12,7 @@ const nextConfig = {
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: "/include-wics-portfolio-website",
+  basePath: "/include-wics-portfolio-workshop",
 
   /**
    * Disable server-based image optimization. Next.js does not support

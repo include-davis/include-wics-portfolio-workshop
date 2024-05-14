@@ -1,1 +1,32 @@
-@use 'src/globals/mixins.scss';
+@use "src/globals/mixins.scss";
+
+.About {
+  height: calc(100vh - var(--navbar-height));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-size: 2rem;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.myPic {
+  border-radius: 50%;
+}
+
+.resume {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  background-color: var(--wics-pink);
+  color: white;
+  width: max-content;
+  font-size: 1rem;
+  text-decoration: none;
+}

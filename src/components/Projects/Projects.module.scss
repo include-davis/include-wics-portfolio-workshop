@@ -1,1 +1,13 @@
 @use "src/globals/mixins.scss";
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

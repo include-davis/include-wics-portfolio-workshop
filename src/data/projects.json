@@ -2,21 +2,24 @@
   {
     "title": "Project 1",
     "description": "This is project 1",
-    "image": "",
+    "image": "vercel.svg",
+    "altText": "",
     "tags": ["tag1", "tag2", "tag3"],
     "github": ""
   },
   {
     "title": "Project 2",
     "description": "This is project 2",
-    "image": "",
+    "image": "vercel.svg",
+    "altText": "",
     "tags": ["tag1", "tag2", "tag3"],
     "github": ""
   },
   {
     "title": "Project 3",
     "description": "This is project 3",
-    "image": "",
+    "image": "vercel.svg",
+    "altText": "",
     "tags": ["tag1", "tag2", "tag3"],
     "github": ""
   }

@@ -1,1 +1,24 @@
 @use "src/globals/mixins.scss";
+
+.navbar {
+  height: var(--navbar-height);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  background-color: pink;
+  padding: 40px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.sectionButton {
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  font-weight: 600;
+}

@@ -24,8 +24,8 @@ export default function Home() {
         <About ref={aboutRef} />
         <Skills ref={skillsRef} />
         <Projects ref={projectsRef} />
-        <Contact ref={contactRef} />
       </div>
+      <Contact ref={contactRef} />
     </>
   );
 }
