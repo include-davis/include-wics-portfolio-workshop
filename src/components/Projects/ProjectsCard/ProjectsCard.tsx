@@ -6,14 +6,13 @@ import Image from "next/image";
 export default function ProjectsCard({ project }: { project: Project }) {
   return (
     <div className={styles.ProjectsCard}>
-      <div className={styles.ProjectImage}>
+      <a className={styles.ProjectImage} href={project.github}>
         <Image
           src={`/include-wics-portfolio-workshop/${project.image}`}
-          width={100}
-          height={100}
+          fill={true}
           alt={project.altText ? project.altText : "Project Image"}
         />
-      </div>
+      </a>
       <div className={styles.ProjectInfo}>
         <h2>{project.title}</h2>
         <ul className={styles.ProjectTags}>

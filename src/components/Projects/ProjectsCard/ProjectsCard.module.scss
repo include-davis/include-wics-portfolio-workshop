@@ -1,20 +1,50 @@
 @use "src/globals/mixins.scss";
 
 .ProjectsCard {
+  width: 100%;
+  height: 300px;
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  align-items: center;
+  gap: 48px;
+
+  border: 2px solid var(--include-purple);
   border-radius: 8px;
-  border: 1px solid var(--include-purple);
   padding: 20px;
-  justify-content: start;
-  width: 100%;
+}
+
+.ProjectImage {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  border-radius: 8px;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+
+  > img {
+    object-fit: cover;
+  }
+}
+
+.ProjectImage:hover {
+  transform: scale(1.02);
+}
+
+.ProjectInfo {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .ProjectTags {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 16px;
 }
 
 .tag {
@@ -23,4 +53,10 @@
   border-radius: 20px;
   color: white;
   font-size: 1rem;
+}
+
+.ProjectDesc {
+  font-size: 1.2rem;
+  max-width: 70%;
+  text-wrap: wrap;
 }

@@ -8,7 +8,7 @@ interface Project {
   image: string;
   altText: string;
   tags: string[] | null;
-  github: string | null;
+  github: string | undefined;
 }
 
 export type { NavLink, Project };

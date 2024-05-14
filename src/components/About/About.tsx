@@ -7,9 +7,9 @@ import styles from "./About.module.scss";
 const About = React.forwardRef((_: any, ref: any) => {
   return (
     <section className={styles.About} ref={ref}>
-      <div className={styles.words}>
-      <h1>NAME</h1>
-      <p>Simple and clean portfolio website</p>
+      <div className={styles.Info}>
+        <h1 className={styles.Title}>Hello! My name is LBOZO.</h1>
+        <p className={styles.Description}>Simple and clean portfolio website</p>
         <a
           className={styles.resume}
           href="https://user.github.io/resume.pdf"
@@ -20,10 +20,10 @@ const About = React.forwardRef((_: any, ref: any) => {
       </div>
       <Image
         className={styles.myPic}
-        src="/include-wics-portfolio-workshop/next.svg"
-        width={200}
-        height={200}
-        alt="My Picture"
+        src="/include-wics-portfolio-workshop/projects/project1.png"
+        width={500}
+        height={500}
+        alt="Me!"
       />
     </section>
   );

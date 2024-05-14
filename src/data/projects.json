@@ -1,26 +1,26 @@
 [
   {
     "title": "Project 1",
-    "description": "This is project 1",
-    "image": "vercel.svg",
+    "description": "This project involves creating a crazy website for everyone to see. Really long description used to test whether or not the text will wrap.",
+    "image": "/projects/project1.png",
     "altText": "",
-    "tags": ["tag1", "tag2", "tag3"],
-    "github": ""
+    "tags": ["HTML5", "CSS3", "Nextjs"],
+    "github": "https://google.com"
   },
   {
     "title": "Project 2",
-    "description": "This is project 2",
-    "image": "vercel.svg",
+    "description": "This project involves creating a crazy website for everyone to see. Really long description used to test whether or not the text will wrap.",
+    "image": "/projects/project1.png",
     "altText": "",
-    "tags": ["tag1", "tag2", "tag3"],
-    "github": ""
+    "tags": ["Reactjs", "MongoDB", "Expressjs"],
+    "github": "https://google.com"
   },
   {
     "title": "Project 3",
-    "description": "This is project 3",
-    "image": "vercel.svg",
+    "description": "This project involves creating a crazy website for everyone to see. Really long description used to test whether or not the text will wrap.",
+    "image": "/projects/project1.png",
     "altText": "",
-    "tags": ["tag1", "tag2", "tag3"],
-    "github": ""
+    "tags": ["TAG1", "TAG2", "TAG3"],
+    "github": "https://google.com"
   }
 ]

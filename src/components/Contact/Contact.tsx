@@ -8,19 +8,19 @@ import styles from "./Contact.module.scss";
 const socials = [
   {
     icon: <FaGithub />,
-    link: "",
+    link: "https://google.com",
   },
   {
     icon: <FaLinkedin />,
-    link: "",
+    link: "https://google.com",
   },
   {
     icon: <FaXTwitter />,
-    link: "",
+    link: "https://google.com",
   },
   {
     icon: <MdOutlineEmail />,
-    link: "",
+    link: "mailto:email",
   },
 ];
 
@@ -37,7 +37,7 @@ const Contact = React.forwardRef((_: any, ref: any) => {
           );
         })}
       </div>
-      <p> Made with 💗 2024 @ WiCS x include workshop</p>
+      <p> Made with 💗 2024 @ WiCS x include Workshop</p>
     </section>
   );
 });

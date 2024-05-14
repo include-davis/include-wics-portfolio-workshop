@@ -2,11 +2,12 @@
 
 .navbar {
   height: var(--navbar-height);
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
-  background-color: pink;
+  background-color: var(--wics-pink);
   padding: 40px;
 }
 
@@ -18,7 +19,8 @@
 
 .sectionButton {
   font-size: 1.5rem;
+  color: white;
   border: none;
   background: none;
-  font-weight: 600;
+  font-weight: 400;
 }
