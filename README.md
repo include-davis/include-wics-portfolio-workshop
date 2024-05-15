@@ -49,9 +49,7 @@ As you make changes to your project, you likely want to see them update live. Ou
 
 1. Make sure you're in the right directory with folders like src, public, etc.
 2. In your terminal, type `npm i` to **install all the necessary dependencies** for the project.
-3. Navigate to ```next.config.mjs``` **edit the basePath** to be your ```repository name```.
-   - **We will also need to add this basePath to every image that we intend to use and localhost url. VERY IMPORTANT**
-4. Now, you can run the app with `npm run dev` to **launch a development session**, which comes with its own localhost url!
+3. Now, you can run the app with `npm run dev` to **launch a development session**, which comes with its own localhost url!
    - Changes automatically refresh the app
    - Any errors will be displayed for you to debug
 

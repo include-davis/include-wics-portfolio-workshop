@@ -8,7 +8,7 @@ export default function ProjectsCard({ project }: { project: Project }) {
     <div className={styles.ProjectsCard}>
       <a className={styles.ProjectImage} href={project.github}>
         <Image
-          src={`/include-wics-portfolio-workshop/${project.image}`}
+          src={project.image}
           fill={true}
           alt={project.altText ? project.altText : "Project Image"}
         />

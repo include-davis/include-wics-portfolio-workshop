@@ -12,7 +12,7 @@ const About = React.forwardRef((_: any, ref: any) => {
         <p className={styles.Description}>Simple and clean portfolio website</p>
         <a
           className={styles.resume}
-          href="https://user.github.io/resume.pdf"
+          href="/resume.pdf"
           target="_blank"
         >
           Resume

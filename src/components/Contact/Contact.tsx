@@ -29,13 +29,18 @@ const Contact = React.forwardRef((_: any, ref: any) => {
   return (
     <section className={styles.Contact} ref={ref}>
       <div className={styles.socials}>
-        {socials.map((social, idx) => {
-          return (
-            <a className={styles.icons} key={idx} href={social.link}>
-              {social.icon}
-            </a>
-          );
-        })}
+        <a className={styles.icons} href={"https://google.com"}>
+          <FaGithub />
+        </a>
+        <a className={styles.icons} href={"https://google.com"}>
+          <FaLinkedin />
+        </a>
+        <a className={styles.icons} href={"https://google.com"}>
+          <FaXTwitter />
+        </a>
+        <a className={styles.icons} href={"https://google.com"}>
+          <MdOutlineEmail />
+        </a>
       </div>
       <p> Made with 💗 2024 @ WiCS x include Workshop</p>
     </section>
