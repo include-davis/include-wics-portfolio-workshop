@@ -8,7 +8,7 @@ const About = React.forwardRef((_: any, ref: any) => {
   return (
     <section className={styles.About} ref={ref}>
       <div className={styles.Info}>
-        <h1 className={styles.Title}>Hello! My name is LBOZO.</h1>
+        <h1 className={styles.Title}>Hello! My name is Ryan.</h1>
         <p className={styles.Description}>Simple and clean portfolio website</p>
         <a
           className={styles.resume}
@@ -20,7 +20,7 @@ const About = React.forwardRef((_: any, ref: any) => {
       </div>
       <Image
         className={styles.myPic}
-        src="/include-wics-portfolio-workshop/projects/project1.png"
+        src="/projects/project1.png"
         width={500}
         height={500}
         alt="Me!"
