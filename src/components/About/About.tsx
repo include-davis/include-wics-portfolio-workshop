@@ -7,7 +7,7 @@ import styles from "./About.module.scss";
 const About = React.forwardRef((_: any, ref: any) => {
   return (
     <section className={styles.About} ref={ref}>
-      <h1>Hello, my name is ._.</h1>
+      <h1>Hello, my name is Emily</h1>
       <p>Welcome to my portfolio!</p>
     </section>
   );
